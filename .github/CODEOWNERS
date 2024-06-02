@@ -11,4 +11,4 @@
 
 # Directory example:
 # This will assign the specified user and team as owners for all files in the `src` directory
-src/ @username @org/team-name
+src/ @njericlaire
