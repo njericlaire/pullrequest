@@ -1,0 +1,14 @@
+# Each line is a file pattern followed by one or more owners.
+# These owners will be requested for review when a change affects the specified files.
+
+# Example:
+# This will assign the specified user as the owner for all files
+* @peterkahumu
+
+# Specific file example:
+# This will assign the specified team as the owner for all `.js` files
+*.js @peterkahumu
+
+# Directory example:
+# This will assign the specified user and team as owners for all files in the `src` directory
+src/ @username @org/team-name
